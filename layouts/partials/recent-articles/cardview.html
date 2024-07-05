@@ -1,0 +1,9 @@
+{{ $recentArticles := 5 }}
+{{ $recentArticles = .Site.Params.homepage.showRecentItems }}
+{{ $section := "projects" }} 
+
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  {{ range first $recentArticles (where .Site.RegularPages "Section" $section) }}
+  {{ partial "article-link/card.html" . }}
+  {{ end }}
+</section>

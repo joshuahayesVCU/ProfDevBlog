@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Example on Joshua Hayes</title>
+    <link>http://localhost:1313/tags/example/</link>
+    <description>Recent content in Example on Joshua Hayes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Joshua Hayes</copyright>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>testing</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/resume/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/resume/featured.png" />
+    </item>
+    
+    <item>
+      <title>posts 2</title>
+      <link>http://localhost:1313/posts/1719525038076-posts-2/</link>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1719525038076-posts-2/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1719525038076-posts-2/featured.png" />
+    </item>
+    
+    <item>
+      <title>this is a project</title>
+      <link>http://localhost:1313/projects/1718918754240-hello-world/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1718918754240-hello-world/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1718918754240-hello-world/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
