@@ -7,35 +7,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Joshua Hayes</copyright>
-    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>testing</title>
-      <link>http://localhost:1313/resume/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <title>Little Ram Pantries</title>
+      <link>http://localhost:1313/projects/littlerampantries/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/resume/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/resume/featured.png" />
+      <guid>http://localhost:1313/projects/littlerampantries/</guid>
+      <description>An award winning open source project that connects students to free food through newspaper stands on campus.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/littlerampantries/featured.png" />
     </item>
     
     <item>
-      <title>posts 2</title>
-      <link>http://localhost:1313/posts/1719525038076-posts-2/</link>
+      <title>STAR Method</title>
+      <link>http://localhost:1313/posts/starmethod/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1719525038076-posts-2/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1719525038076-posts-2/featured.png" />
+      <guid>http://localhost:1313/posts/starmethod/</guid>
+      <description>A summary of the Amazon STAR interview method as well as example applications using my own experiences.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/starmethod/featured.png" />
     </item>
     
     <item>
-      <title>this is a project</title>
-      <link>http://localhost:1313/projects/1718918754240-hello-world/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      <title>Personal Portfolio</title>
+      <link>http://localhost:1313/projects/portfoliosummary/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/1718918754240-hello-world/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1718918754240-hello-world/featured.png" />
+      <guid>http://localhost:1313/projects/portfoliosummary/</guid>
+      <description>Why I choose Hugo and Go to build this website and why it was a perfect choice to do so.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/portfoliosummary/featured.png" />
+    </item>
+    
+    <item>
+      <title>D.A.D BOD</title>
+      <link>http://localhost:1313/projects/dadbod/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/dadbod/</guid>
+      <description>An internal permissions auditing tool used to aggregate millions of entries into a central location.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/dadbod/featured.png" />
     </item>
     
   </channel>

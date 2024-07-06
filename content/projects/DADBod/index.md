@@ -1,9 +1,10 @@
 ---
-title: "this is a project"
-date: 2024-06-20
+title: "D.A.D BOD"
+date: 2023-07-15
 draft: false
 description: "a description"
 tags: ["example", "tag"]
+summary: "An internal permissions auditing tool used to aggregate millions of entries into a central location."
 ---
  an example to get you started
 # This is a heading

@@ -1,9 +1,10 @@
 ---
-title: "this is a post"
-date: 2024-06-20
+title: "Personal Portfolio"
+date: 2024-06-01
 draft: false
 description: "a description"
-tags: ["posts", "tag"]
+tags: ["example", "tag"]
+summary: "Why I choose Hugo and Go to build this website and why it was a perfect choice to do so."
 ---
  an example to get you started
 # This is a heading

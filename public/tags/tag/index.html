@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.a99c1a57c98168bc7e9a6a2d6c2cb2eac5f8257891ad3324d2276233a7ee6c36c55b35ed3c2238f3f8dc51dd501a777da0856c7a7e365b7d4b559fb81b769fa5.css"
-    integrity="sha512-qZwaV8mBaLx&#43;mmotbCyy6sX4JXiRrTMk0idiM6fubDbFWzXtPCI48/jcUd1QGnd9oIVsen42W31LVZ&#43;4G3afpQ==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.85f006de1806b55b2d082d1122deedd8cec6fdc1f7c8a51be975a4496165d6c798f4a3de52545a6a87cc4bc09fc2d6f5201d44ea57acc1ac2b1c42a688c62bee.css"
+    integrity="sha512-hfAG3hgGtVstCC0RIt7t2M7G/cH3yKUb6XWkSWFl1seY9KPeUlRaaofMS8Cfwtb1IB1E6leswawrHEKmiMYr7g==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -126,14 +126,19 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 min-h-[130px] opacity-65 pl-[24px] pr-[24px] bg-gradient-to-b from-neutral from-60% dark:from-neutral-800 to-transparent mix-blend-normal" style="z-index:80"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Joshua Hayes</a>
+            <a href="/" class="text-base font-medium text-xl text-gray-500 hover:text-gray-900">Joshua Hayes</a>
             
 
         </nav>
@@ -341,6 +346,16 @@
 
 
 
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
   
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
@@ -433,16 +448,16 @@
 
 
 
-  <a class="flex flex-wrap article " href="/resume/">
+  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projects/littlerampantries/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/resume/featured.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projects/littlerampantries/featured.png);"></div>
         
-      <div class=" mt-3 md:mt-0">
+      <div class=" p-4">
       <div class="items-center text-left text-xl font-semibold">
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/resume/">testing</div>
+          href="/projects/littlerampantries/">Little Ram Pantries</div>
         
         
         
@@ -459,8 +474,6 @@
 
 
 
-
-  
 
 
 
@@ -487,7 +500,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-07-01 00:00:00 &#43;0000 UTC">1 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>41 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <span>42 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
   
 
   
@@ -500,6 +513,10 @@
 
 
 
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        An award winning open source project that connects students to free food through newspaper stands on campus.
       </div>
       
     </div>
@@ -529,16 +546,16 @@
 
 
 
-  <a class="flex flex-wrap article " href="/posts/1719525038076-posts-2/">
+  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/starmethod/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/1719525038076-posts-2/featured.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/posts/starmethod/featured.png);"></div>
         
-      <div class=" mt-3 md:mt-0">
+      <div class=" p-4">
       <div class="items-center text-left text-xl font-semibold">
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/1719525038076-posts-2/">posts 2</div>
+          href="/posts/starmethod/">STAR Method</div>
         
         
         
@@ -555,8 +572,6 @@
 
 
 
-
-  
 
 
 
@@ -583,7 +598,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-27 00:00:00 &#43;0000 UTC">27 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>41 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <span>40 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
   
 
   
@@ -596,6 +611,10 @@
 
 
 
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        A summary of the Amazon STAR interview method as well as example applications using my own experiences.
       </div>
       
     </div>
@@ -625,16 +644,16 @@
 
 
 
-  <a class="flex flex-wrap article " href="/projects/1718918754240-hello-world/">
+  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/cultureanalysis/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/projects/1718918754240-hello-world/featured.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/posts/cultureanalysis/featured.png);"></div>
         
-      <div class=" mt-3 md:mt-0">
+      <div class=" p-4">
       <div class="items-center text-left text-xl font-semibold">
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/projects/1718918754240-hello-world/">this is a project</div>
+          href="/posts/cultureanalysis/">An Analysis Of Culture Through Internal Memos</div>
         
         
         
@@ -651,8 +670,6 @@
 
 
 
-
-  
 
 
 
@@ -679,7 +696,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-20 00:00:00 &#43;0000 UTC">20 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>41 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <span>1384 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
   
 
   
@@ -692,6 +709,10 @@
 
 
 
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        An analysis of the culture of tech companies through an exploration of now exposed internal memos.
       </div>
       
     </div>
@@ -721,16 +742,16 @@
 
 
 
-  <a class="flex flex-wrap article " href="/posts/1718918744892-testing/">
+  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projects/portfoliosummary/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/1718918744892-testing/featured.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projects/portfoliosummary/featured.png);"></div>
         
-      <div class=" mt-3 md:mt-0">
+      <div class=" p-4">
       <div class="items-center text-left text-xl font-semibold">
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/1718918744892-testing/">this is a post</div>
+          href="/projects/portfoliosummary/">Personal Portfolio</div>
         
         
         
@@ -747,8 +768,6 @@
 
 
 
-
-  
 
 
 
@@ -775,7 +794,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-20 00:00:00 &#43;0000 UTC">20 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>41 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <span>41 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
   
 
   
@@ -788,6 +807,115 @@
 
 
 
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Why I choose Hugo and Go to build this website and why it was a perfect choice to do so.
+      </div>
+      
+    </div>
+  </a>
+
+    
+    
+    
+    <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+      2023
+    </h2>
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projects/dadbod/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projects/dadbod/featured.png);"></div>
+        
+      <div class=" p-4">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/projects/dadbod/">D.A.D BOD</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>41 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        An internal permissions auditing tool used to aggregate millions of entries into a central location.
       </div>
       
     </div>

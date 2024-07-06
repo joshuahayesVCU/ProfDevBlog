@@ -28,10 +28,10 @@
     {{ end }}
     {{ $bioContent := readFile "content/authors/author-bio.md" | markdownify }}
     {{ $bioContentWithBreaks := replace $bioContent "\n" "<br>" }}
-    <div class="mt-4 text-md text-neutral-500 dark:text-neutral-400">
+    <div class="mt-8 text-md text-neutral-500 dark:text-neutral-400">
       {{ $bioContentWithBreaks | safeHTML }}
     </div>
-    <div class="mt-1 text-2xl">
+    <div class="mt-1 text-4xl">
       {{ partialCached "author-links.html" . }}
     </div>
   </header>

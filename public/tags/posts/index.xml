@@ -9,13 +9,13 @@
     <copyright>© 2024 Joshua Hayes</copyright>
     <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>this is a post</title>
-      <link>http://localhost:1313/posts/1718918744892-testing/</link>
+      <title>An Analysis Of Culture Through Internal Memos</title>
+      <link>http://localhost:1313/posts/cultureanalysis/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1718918744892-testing/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1718918744892-testing/featured.png" />
+      <guid>http://localhost:1313/posts/cultureanalysis/</guid>
+      <description>An analysis of the culture of tech companies through an exploration of now exposed internal memos.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/cultureanalysis/featured.png" />
     </item>
     
   </channel>

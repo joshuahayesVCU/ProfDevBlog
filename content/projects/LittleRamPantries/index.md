@@ -1,11 +1,15 @@
 ---
-title: "posts 2"
-date: 2024-06-27
+title: "Little Ram Pantries"
+date: 2024-07-06
 draft: false
 description: "a description"
 tags: ["example", "tag"]
+summary: "An award winning open source project that connects students to free food through newspaper stands on campus."
 ---
  an example to get you started
+
+test
+
 # This is a heading
 ## This is a subheading
 ### This is a subsubheading

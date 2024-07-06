@@ -26,7 +26,7 @@ disableTextInHeader = false
 # smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "fixed-gradient" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -37,29 +37,29 @@ disableTextInHeader = false
 
 [homepage]
   layout = "profile" # valid options: page, profile, hero, card, background, custom
-  #homepageImage = "IMAGE.jpg" # used in: hero, and card
+  # homepageImage = "IMAGE.jpg" # used in: hero, and card
   showRecent = true 
   postsLinkDest = "/posts"
   projectsLinkDest = "/projects"
   showRecentItems = 3
-  showMoreLink = true 
+  showMoreLink = false 
   cardView = false 
   cardViewScreenWidth = false 
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
-  showDate = true
+  showDate = false 
   showViews = false
   showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = false
-  showAuthor = false 
-  # showAuthorBottom = false
-  showHero = false
+  showAuthor = true  
+  showAuthorBottom = true 
+  showHero = false 
   # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
+  showBreadcrumbs = true 
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
@@ -77,6 +77,7 @@ disableTextInHeader = false
   showWordCount = true
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = false
+  showDescriptionInCard = true
 
 [list]
   showHero = false
@@ -84,11 +85,11 @@ disableTextInHeader = false
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
-  showSummary = false
+  showSummary = true 
   showViews = false
   showLikes = false
   showTableOfContents = false
-  showCards = false
+  showCards = true 
   orderByWeight = false
   groupByYear = true
   cardView = false
