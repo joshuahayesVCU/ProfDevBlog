@@ -59,8 +59,8 @@
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-06-27T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-06-27T00:00:00+00:00">
+    <meta property="article:published_time" content="2024-05-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-31T00:00:00+00:00">
     <meta property="article:tag" content="Example">
     <meta property="article:tag" content="Tag">
     <meta property="og:image" content="http://localhost:1313/posts/starmethod/featured.png">
@@ -88,15 +88,15 @@
       "name": "Joshua Hayes"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-06-27T00:00:00\u002b00:00",
-    "datePublished": "2024-06-27T00:00:00\u002b00:00",
+    "dateCreated": "2024-05-31T00:00:00\u002b00:00",
+    "datePublished": "2024-05-31T00:00:00\u002b00:00",
     
-    "dateModified": "2024-06-27T00:00:00\u002b00:00",
+    "dateModified": "2024-05-31T00:00:00\u002b00:00",
     
     "keywords": ["example","tag"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "40"
+    "wordCount": "840"
   }]
   </script>
 
@@ -457,6 +457,8 @@
 
 
 
+  
+
 
 
 
@@ -482,7 +484,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>40 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2024-05-31 00:00:00 &#43;0000 UTC">31 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span>840 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
   
 
   
@@ -511,7 +513,83 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-can-you-describe-a-challenging-technical-problem-you-have-solved">1. Can you describe a challenging technical problem you have solved?</a></li>
+        <li><a href="#2-can-you-explain-a-project-you-have-worked-on-including-your-specific-contributions-and-the-technologies-used">2. Can you explain a project you have worked on, including your specific contributions and the technologies used?</a></li>
+        <li><a href="#3-how-do-you-approach-debugging-and-troubleshooting-code">3. How do you approach debugging and troubleshooting code?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-can-you-describe-a-challenging-technical-problem-you-have-solved">1. Can you describe a challenging technical problem you have solved?</a></li>
+        <li><a href="#2-can-you-explain-a-project-you-have-worked-on-including-your-specific-contributions-and-the-technologies-used">2. Can you explain a project you have worked on, including your specific contributions and the technologies used?</a></li>
+        <li><a href="#3-how-do-you-approach-debugging-and-troubleshooting-code">3. How do you approach debugging and troubleshooting code?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -521,16 +599,17 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h1 class="relative group">This is what STAR is 
-    <div id="this-is-what-star-is" class="anchor"></div>
+<h1 class="relative group">What is the STAR method? 
+    <div id="what-is-the-star-method" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-what-star-is" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#what-is-the-star-method" aria-label="Anchor">#</a>
     </span>        
     
 </h1>
+<p>The STAR method is a structured way of responding to behavioral interview questions by discussing the specific Situation, Task, Action, and Result of the situation you are describing.</p>
 
 
 <h1 class="relative group">This is why it&rsquo;s important 
@@ -543,78 +622,67 @@
     </span>        
     
 </h1>
+<p>The STAR method is important because it helps you provide clear and concise answers to interview questions. It ensures that you cover all necessary aspects of your experience, demonstrating your skills and abilities in a structured manner. This approach makes it easier for interviewers to understand the context of your achievements and assess your qualifications.</p>
 
 
-<h1 class="relative group">Here are some common STAR uses 
-    <div id="here-are-some-common-star-uses" class="anchor"></div>
+<h1 class="relative group">Here are some STAR responses to common interview questions 
+    <div id="here-are-some-star-responses-to-common-interview-questions" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#here-are-some-common-star-uses" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#here-are-some-star-responses-to-common-interview-questions" aria-label="Anchor">#</a>
     </span>        
     
 </h1>
 
 
-<h2 class="relative group">use one 
-    <div id="use-one" class="anchor"></div>
+<h3 class="relative group">1. Can you describe a challenging technical problem you have solved? 
+    <div id="1-can-you-describe-a-challenging-technical-problem-you-have-solved" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#use-one" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#1-can-you-describe-a-challenging-technical-problem-you-have-solved" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
+<p><strong>Situation:</strong> During my tenure at Markel Group, I was tasked with simplifying the JSON schema of over 10 years of historic transaction data stored in our noSQL database. This was over 4.4 million historical policies that the business wanted to translate into a relational schema that could be used to run business reports on. Before this microservice, the current process involved an over 3 month wait to see the policy data at the end of the pipeline.</p>
+<p><strong>Task:</strong> The primary challenge was to flatten this extensive JSON schema, originally containing 2,000 fields, into a more manageable format without losing crucial information.</p>
+<p><strong>Action:</strong> I wrote the mapping logic for a C# microservice designed to convert the JSON schema into a simplified 200-field schema. This involved understanding the existing complex structure, identifying essential fields, and creating efficient mapping rules. I followed a waterfall based development approach. Using an excel sheet to highlight the needed fields, and my knowledge of the applications JSON schema from past projects. I wrote the logic to both map the JSON schema from non-simplified to simplified, as well as the unit test to verify this logic was correct.</p>
+<p><strong>Result:</strong> The new simplified schema greatly improved data accessibility and usability for business analytics and operations, facilitating better decision-making processes. The streamlined data also enhanced system performance and reduced processing times.</p>
 
 
-<h2 class="relative group">use two 
-    <div id="use-two" class="anchor"></div>
+<h3 class="relative group">2. Can you explain a project you have worked on, including your specific contributions and the technologies used? 
+    <div id="2-can-you-explain-a-project-you-have-worked-on-including-your-specific-contributions-and-the-technologies-used" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#use-two" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#2-can-you-explain-a-project-you-have-worked-on-including-your-specific-contributions-and-the-technologies-used" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
+</h3>
+<p><strong>Situation:</strong> As part of my senior capstone project at Virginia Commonwealth University, I worked on the Little Ram Pantries Web Dashboard, an initiative to combat food insecurity on campus.</p>
+<p><strong>Task:</strong> The project aimed to create a web dashboard that would interact with Raspberry Pis and webcams installed in newspaper stand boxes stocked with food, placed in busy campus buildings. The dashboard needed to monitor and manage food inventory to ensure consistent access for students.</p>
+<p><strong>Action:</strong> I developed the web dashboard using React and AWS Lambda functions written in Go. We transitioned to a serverless architecture after receiving feedback from a grant we received. I was responsible for creating this architecture, integrating the Raspberry Pis and webcams with the dashboard, designing and creating the MVP React web dashboard, and writing the Go microservices that process new images. Additionally, I went beyond the requirements of the project and included AI analysis to the image uploading pipeline. This allows the researching using the data to have a better understanding of the pantry usage.</p>
+<p><strong>Result:</strong> The web dashboard successfully provided continuous food access to over 14,000 students in 2023. The project was recognized for its innovation and social impact, earning a Sternheimer grant and a third-place award for multidisciplinary engineering projects. This solution not only addressed a critical need on campus but also showcased the potential of technology-driven social initiatives.</p>
 
 
-<h2 class="relative group">use three 
-    <div id="use-three" class="anchor"></div>
+<h3 class="relative group">3. How do you approach debugging and troubleshooting code? 
+    <div id="3-how-do-you-approach-debugging-and-troubleshooting-code" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#use-three" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#3-how-do-you-approach-debugging-and-troubleshooting-code" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
-
-
-<h2 class="relative group">use four 
-    <div id="use-four" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#use-four" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-
-
-<h2 class="relative group">use five 
-    <div id="use-five" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#use-five" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
+</h3>
+<p><strong>Situation:</strong> As a part-time Associate Software Engineer at Markel Group, I worked on an external-facing web app that required frequent updates and bug fixes due to dynamic business needs.</p>
+<p><strong>Task:</strong> One notable task involved guiding an offshore development team to ensure a smooth upgrade from Angular 11 to Angular 15, which required comprehensive test coverage.</p>
+<p><strong>Action:</strong> With the guidance of the lead QA engineer, i helped introduce the team to Functionize, an automated testing tool that uses machine learning to streamline unit test maintenance. I collaborated with the offshore team to develop automated tests, achieving 100% test coverage. This proactive approach included detailed logging and monitoring to quickly identify and address issues.</p>
+<p><strong>Result:</strong> The upgrade to Angular 15 was frictionless, with no major disruptions reported. The automated tests significantly reduced maintenance time, allowing the team to focus on new feature development and improving overall product stability. The testing tool proved to be successful and the QA team continues to create new test with it.</p>
 
 
 <h1 class="relative group">When to not use STAR 
@@ -627,6 +695,7 @@
     </span>        
     
 </h1>
+<p>While the STAR method is highly effective for answering behavioral interview questions, it is not suitable for all types of questions. Avoid using STAR for questions that require straightforward, factual answers, such as questions about your technical skills or knowledge. It is also not necessary for questions that seek your opinions, hypothetical scenarios, or discussions about your career aspirations. Use STAR specifically for questions that ask you to describe past experiences and how you handled specific situations.</p>
 
         </div>
         
@@ -767,15 +836,10 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/posts/cultureanalysis/">
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/posts/cultureanalysis/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
@@ -783,12 +847,19 @@
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
+                    <time datetime="2024-06-21 00:00:00 &#43;0000 UTC">21 June 2024</time>
+                  
                 </span>
               </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
             </a>
-          
-        </span>
-        <span>
           
         </span>
       </div>

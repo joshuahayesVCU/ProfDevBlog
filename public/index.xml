@@ -7,15 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Joshua Hayes</copyright>
-    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Little Ram Pantries</title>
       <link>http://localhost:1313/projects/littlerampantries/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/projects/littlerampantries/</guid>
       <description>An award winning open source project that connects students to free food through newspaper stands on campus.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/littlerampantries/featured.png" />
+    </item>
+    
+    <item>
+      <title>Personal Portfolio</title>
+      <link>http://localhost:1313/projects/portfoliosummary/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/portfoliosummary/</guid>
+      <description>Why I choose Hugo and Go to build this website and why it was a perfect choice to do so.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/portfoliosummary/featured.png" />
     </item>
     
     <item>
@@ -24,24 +34,14 @@
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/resume/</guid>
-      <description>an example to get you started</description>
+      <description>GitHub | LinkedIn # Professional Experience # Markel Group # Associate Software Engineer</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/resume/featured.png" />
-    </item>
-    
-    <item>
-      <title>STAR Method</title>
-      <link>http://localhost:1313/posts/starmethod/</link>
-      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/starmethod/</guid>
-      <description>A summary of the Amazon STAR interview method as well as example applications using my own experiences.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/starmethod/featured.png" />
     </item>
     
     <item>
       <title>An Analysis Of Culture Through Internal Memos</title>
       <link>http://localhost:1313/posts/cultureanalysis/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/cultureanalysis/</guid>
       <description>An analysis of the culture of tech companies through an exploration of now exposed internal memos.</description>
@@ -49,23 +49,13 @@
     </item>
     
     <item>
-      <title>Personal Portfolio</title>
-      <link>http://localhost:1313/projects/portfoliosummary/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <title>STAR Method</title>
+      <link>http://localhost:1313/posts/starmethod/</link>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/portfoliosummary/</guid>
-      <description>Why I choose Hugo and Go to build this website and why it was a perfect choice to do so.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/portfoliosummary/featured.png" />
-    </item>
-    
-    <item>
-      <title>D.A.D BOD</title>
-      <link>http://localhost:1313/projects/dadbod/</link>
-      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/projects/dadbod/</guid>
-      <description>An internal permissions auditing tool used to aggregate millions of entries into a central location.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/dadbod/featured.png" />
+      <guid>http://localhost:1313/posts/starmethod/</guid>
+      <description>A summary of the Amazon STAR interview method as well as example applications using my own experiences.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/starmethod/featured.png" />
     </item>
     
     <item>

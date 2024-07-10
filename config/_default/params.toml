@@ -48,7 +48,7 @@ disableTextInHeader = false
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
-  showDate = false 
+  showDate = true 
   showViews = false
   showLikes = false
   showDateOnlyInArticle = false
@@ -69,7 +69,7 @@ disableTextInHeader = false
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true 
   # showRelatedContent = false
   # relatedContentLimit = 3
   showTaxonomies = false
