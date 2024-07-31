@@ -36,3 +36,9 @@ Both the Microsoft memo and the Facebook-Instagram texts serve as strategic docu
 
 ## Closing Arguments
 Internal memos provide valuable insights into the cultural identities of tech companies, revealing a softer, less refined version of the company than the public typically sees. The Microsoft memo on "Zero Defects" illustrates a culture of high standards and precision, while the Facebook-Instagram text messages show a more informal, relationship-driven approach to business. These documents demonstrate how internal communications can both reflect and influence the unique cultures of tech companies, shaping the way they operate and evolve over time. By examining these internal communications, one can gain a deeper understanding of the intrinsic values and operational philosophies that drive these organizing, providing a window into their inner workings and culture.
+
+## Works Cited
+
+Mason, Chris. Zero Deficit Code. 20 June 1989. sriramk, https://sriramk.com/wp-content/uploads/2024/01/zerodef.pdf. Internal Memo.
+
+Zuckerberg, Mark, and Kevin Systrom. Text Log Detailing Facebook's Acquisition of Instagram. 2012.
